@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UAompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/html.ico.ico" type="image/x-icon">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Giorgina';
+            src: url('/Ex017/Fontes/Hello\ Giorgina.otf') format('opentype'), url('/Ex017/Fontes/Hello\ Giorgina.ttf') format('truetype');
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embeddes-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family:'Times New Roman', Helvetica, sans-serif;
+            }
+        h1{
+            font-family: 'Giorgina', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quaerat saepe aut blanditiis totam cumque ducimus facere molestias nobis quidem officia, enim nulla eius veniam odio, fugit placeat magni.</p>
+</body>
+</html>

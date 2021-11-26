@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/html.ico.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(120, 148, 148);
+
+           /* SIMPLIFICAÇÃO DE BORDER
+            border: 10px solid rgb(120,148,148); */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+           
+            /* SIMPLIFICAÇÃO DE PADDING (NA ORDEM DO SENTIDO HORÁRIO DO RELÓGIO)
+            padding: 10px 10px 10px 10px; 
+            SE AS 4 MEDIDAS FOREM IGUAIS BASTA INFORMAR UMA VEZ, SENDO: padding: 10px; 
+            SE COLOCAR DUAS MEDIDAS, SENDO: padding: 10px 20px; VAI CONSIDERAR O 10 PARA CIMA E BAIXO E 20 PARA ESQUERDA E DIREITA */ 
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* margin: auto */
+            /* SIMPLIFICAÇÃO DE MARGEM (NA ORDEM DO SENTIDO HORÁRIO DO RELÓGIO)
+            margin: 10px 10px 10px 10px; 
+            SE AS 4 MEDIDAS FOREM IGUAIS BASTA INFORMAR UMA VEZ, SENDO: margin: 10px; 
+            SE QUISER QUE SÓ A MARGEM DA DIREITA E DA ESQUERDA SEJA CENTRALIZADA USA: margin: 10px auto 10px auto*/
+
+            outline-width: 2px;
+            outline-style: dashed;
+            outline-color: darkred;
+             /* SIMPLIFICAÇÃO DE OUTLINE
+            outline: 10px solid rgb(120,148,148); */
+        }
+        a{
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkred;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-left: 8px;
+            padding-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links</a> são exemplos de caixas inline-level. Vamos ber como tudo isso funciona</p>
+</body>
+</html>

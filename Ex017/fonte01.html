@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/html.ico.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+       body{
+            font-family: 'Work Sans', sans-serif;
+            /* 
+            Medidas Absolutas: cm, mm, in, px, pt, pc
+
+            Medidas Relativas: em (altura do 'm' maiúsculo), ex, rex, vw, vh, %
+
+            16px geralmente = 1em
+            W3C recomenda usar px ou em, de preferência em 
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* weight (peso), width (largura), height (altura)*/
+            }
+        h1{
+            /* shorthand font (simplificando as 4 linhas acima)
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bold 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis optio nobis soluta deleniti quod, aperiam, suscipit ipsa reprehenderit eum beatae incidunt quaerat unde veritatis aliquam doloribus quae dolor. Maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laboriosam quos incidunt ipsa possimus cumque, saepe placeat fugit corrupti voluptate nemo eum voluptatibus earum iure tempora repellat, consequuntur non aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores reiciendis harum quae amet iure tempore ex est vero? Possimus temporibus, sapiente eaque recusandae velit rem deserunt laborum molestiae accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum iste ab sed obcaecati hic eius voluptatum, cupiditate ullam odio incidunt corporis. Assumenda qui quasi, sed facilis porro dolorum harum laudantium.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi voluptatum atque obcaecati voluptatem, aliquam delectus corporis nihil! Maxime illo veniam dolor quod beatae nobis, dolores eaque quam error? Placeat!</p>
+</body>
+</html>

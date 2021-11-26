@@ -1,0 +1,98 @@
+Códigos HTML:
+- h1 = título
+- p = parágrafo
+- hr = linha horizontal
+- br = quebra de linha
+- &lt; = símbolo >
+- &gt; = símbolo <
+- <!-- = comentário
+- &reg; = marca registrada
+- &copy; = copyright
+- &trade; = marca registrada em inglês
+- &euro; = moeda euro
+- &pound; = moeda libra
+- &yen; = moeda iene
+- &cent; = moeda cent
+- &delta; = delta minúsculo
+- &Delta; = delta maiúsculo
+- &#x+nºdoemoji (tira o +) = emoji 
+- na tag img src="" alt="" apertar ctrl+espaço enquanto o cursor estiver entre as 
+aspas de src que vai aparecer a lista de coisas que tem na mesma pasta do arquivo
+- link:favicon = muda o ícone do site
+- b = termo em negrito (tag não semântica) - não faz sentido usar pois é voltado
+para forma que é função do CSS
+- strong = termo em destaque, ou seja, além do texto fica em negrito (tag 
+semântica), a tag da destaque para aquela palavra, mostra que é uma palavra "forte"
+- seleciona o termo que quer colocar entre tags, aperta ctrl+shift+p, escreve wrap
+e clica em quebrar linha com abreviação, ali escreve a tag que quer envelopar 
+o termo
+- i = termo em itálico (tag não semântica) - não faz sentido usar pois é voltado
+para forma que é função do CSS
+- em = termo com ênfase (tag semântica), com significado
+- mark = marcar um texto, grifar (para uma mudança pontual na cor do texto marcado
+pode usar mark style="background-color: ;"
+- big = texto grande (desuso, a forma correta de alterar é mudando o texto inteiro
+em CSS)
+- small = texto pequeno
+- del = texto riscado, texto deletado, para mostrar que não deve ser considerado
+- ins = texto inserido, para mostrar que foi adicionado depois
+- u = texto sublinhado (tag não semântica) - não faz sentido usar pois é voltado
+para forma que é função do CSS
+- sup = texto sobrescrito como x²
+- sub = texto subscrito como H20
+- code = para formartar em fonte mono espaçada
+- pre = adiciona todas as quebras de linha
+- q = adiciona sentido a uma citação simples, sem quebra
+- blockquote = para citações completas
+- blockquote cite "" = não muda nada visualmente, mas os mecanismos de busca e a 
+parte interna do site liga a citação ao livro/atigo.. que está no endereço
+- abbr = para colocar significado a uma abreviação
+- bdo dir="rtl" = texto invertido
+- ol e dentro de ol colocar <li> = para criar listas ordenadas
+- ol type="estilo que você quer" start="aonde quer começar (só funciona com
+números)" (OPCIONAL)
+- ul e dentro de ul colocar <li> = para criar listas em que a ordem não importa
+- ul type="disc/circle/square"
+- dl = cria lista de definições
+- dentro de dl temos dt = onde fica o termo
+- dentro de dl temos dd = onde fica a definição do termo
+- a = cria uma referência intertexto de um link externo, então uma frase se 
+transforma em um link, no entanto essa tag sobrepõe o site
+- Adicionando target="_blank" rel="external" (página externa) depois da URL de 
+referência, o link será aberto em outra aba do navegador.
+- Adicionando rel="next" mostra para o buscador qual é a próxima página
+- Adicionando rel="prev" mostra para o buscador qual é a página anterior
+- Adicionando rel="nofollow" mostra para o buscador que não possui aval do
+conteúdo que será apresentado no link
+- Adicionando target="_self" o link é aberto na própria aba que está navegando
+- Para fazer o caminho inverso para voltar uma pasta basta adicionar ../ antes do
+nome do arquivo
+- Para fazer download basta adicionar depois da URL do arquivo download="arquivo"
+type="acessar o iana para ver o nome a ser colocado"
+- Para imagens se alterarem com o tamanho da tela é preciso colocar a tag 
+picture e dentro dela:
+	<source media type (max-width: tamanho desejado) srcset:"imagem
+	com o tamanho menor"
+	<img src="imagem com o tamanho maior  
+- Para adicionar áudio de forma simples usa a tag 
+	<audio src="Nome do arquivo"
+	controls: para adicionar controle
+	autoplay: para tocar sozinho
+- Outra forma de adicionar áudio (INDICADO):
+	<audio preload="metadata" controls>
+		<source src="nome da mídia" type="audio/mpeg"
+		<source src="nome da mídia" type="audio/ogg"
+		<source src="nome da mídia" type="audio/way"
+- Cada navegador aceita um formato de vídeo então é importante ter a mídia
+em vários formatos.
+- Para adicionar vídeo de forma simples com hospedagem local usa a tag
+	<video src="Nome do arquivo" width=tamanho do video controls>
+- Outra forma de adicionar vídeo (INDICADO):
+	<video width="Tamanho" poster="Capa do vídeo" controls - controle
+	loop - para ficar reproduzindo em looping>
+        <source src="Nome do vídeo" type="video/mp4">
+        <source src="Nome do vídeo" type="video/mp4">
+        <source src="Nome do vídeo" type="video/webm">
+        <source src="Nome do vídeo" type="video/ogg">
+- Para adicionar vídeo sem consumir acesso local basta pegar um vídeo do 
+youtube/vimeo, copiar o código feito pelo próprio site e colar no html

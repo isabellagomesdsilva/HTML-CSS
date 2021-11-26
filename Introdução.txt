@@ -1,0 +1,73 @@
+O que é domínio e hospedagem?
+Domínio - nome de identificação do site (nome único), ele é necessário para que 
+várias pessoas acessem um conteúdo
+Hospedagem é o local que o conteúdo vai estar armazenado
+
+O que é uma URL?
+Localizador de endereço único.
+Partes da URL:
+https://www.uol.com.br/esportes - URL
+	https:// : protocolo
+	www.: sub-domínio
+	uol.com: domínio
+	.com: TLD
+	/esportes: caminho
+
+O que é HTML?
+Tudo o que está relacionado com conteúdo: textos, imagens, vídeos, tabelas
+
+O que é CSS?
+Focado no design: cores, sombras, tamanhos, posicionamento
+
+O que é JS?
+São as interações dos sites: menus, animaçoes, popus, validações
+
+Conteúdo em HTML
+<h1> Exemplo de título </h1>
+<p> Exemplo de parágrafro </p>
+<img src="foto.png" alt="Exemplo de foto">
+
+Estilo em CSS
+h1 {
+    font-family: Arial;
+    font-size: 20pt
+    color: blue;
+   }
+
+Estrutura básica de documento HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		cabeça do HTML
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width,initil-scale=1.0">
+		<tittle>Document</tittle>
+	</head>
+	<body>
+		corpo do HTML
+		<h1> "Olá mundo!"</h1>
+	</body>
+</html>
+
+Como funcionam a HTML e as CSS?
+O que está no servidor é trazido uma cópia para o usuário no navegador, a função
+do navegador é ler código a código e transformar isso em um resultado visual.
+
+Front-end e Back-end
+Front: client-side (tecnologia para o lado do cliente)
+Back: server-side (tecnologia para o lado do servidor)
+Full stack: front + back (desenvolve os dois lados)
+
+Formatos para imagem (cuidado para a imagem não pesar no site)
+JPEG - alta compactação (imagens grandes)
+PNG - permite transparência (imagem que flutua por cima e com fundo transparente)
+
+Tamanho de imagens para site:
+Máximo - 1500 de largura
+
+Hierarquia de Títulos
+Não pode pular do h1 para o h3, deve seguir a ordem hierarquica 
+
+HTML está focado em semântica (significado)
+CSS está focado na forma (estilo)

@@ -1,0 +1,58 @@
+Psicologia das cores
+É um estudo que busca compreender o comportamento humano em relação às cores. Dessa
+forma, essa área da psciologia analisa e define quais os efeitos que cada cor gera 
+nas pessoas, como mudança nas emoções, nos sentimentos, a criação de desejos e etc.
+Cores no anúncio chamam muito mais atenção. Utilizar gráficos aumenta o número de 
+visualizações.
+
+Emoção das cores
+As cores harmônicas chamam mais ateção dos seres humanos sendo 
+feito de forma irracional, os sites que não se preocupam com as cores acabam 
+ganhando menor visibilidade
+
+Harmonia de cores
+Círculo cromático - utilizado para harmonizar as cores (tudo o que tem simetria
+se torna mais bonitos aos olhos do ser humano)
+Cores primárias dentro do círculo cromático: Amarelo, Azul e Vermelho
+Cores secundárias: Verde, Laranja, Violeta
+Cores terciárias - mistura da primária e da secundária: Amarelo-esverdeado, 
+Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado, Azul-arroxeado,
+Azul-esverdeado.
+Temperatura de cores - essa divisão possui uma harmonia melhor por ser cores
+análogas:
+- Cores frias = Azul, Violeta, Verde, Amarelo-esverdeado, Azul-arroxeado,
+Azul-esverdeado
+- Cores quentes = Amarelo, Vermelho, Laranja, Amarelo-alaranjado,
+Vermelho-alaranjado, Vermelho-arroxeado 
+Uma paleta tem em média de 3 a 5 cores, desconsiderando o branco e o preto
+Cores complementares - as cores que mais constratam entre si, o extremo oposto do
+círculo complementar
+Cores análogas - cores irmãs que têm uma maior proximidade, cores imediatamente ao
+lado no círculo
+Cores análogas e uma complementar - cores irmãs com um super contraste, são três
+cores vizinhas e uma completamente no extremo oposto da central
+Cores análogas relacionadas - duas cores irmãs (vizinhas), pula a terceira e pega
+a quarta dando um certo contraste (ex: amarelo, amarelo-alaranjado, pula o laranja
+e pega o vermelho-alaranjando)
+Cores intercaladas - cor sim e cor não, então não são irmãs, dando um maior 
+contraste (ex: amarelo, laranja e vermelho)
+Cores triádicas - pega uma cor, pula as três vizinhas, pega a quarta, pula as
+próximas três e pega a oitava (ex: amarelo, vermelho e azul)
+Cores em quadrado - cores fortes e bem balanceadas, sendo feitas pegando uma, 
+pulando duas, pegando a terceira, pulando outras duas, pegando a sexta, pulando 
+mais duas, e pegando a nona (forma um X no círculo, ex: amarelo, 
+vermelho-alaranjado, violeta e verde)
+Cores tetrádicas - pega duas cores complementares e junta com outras duas 
+complementares
+Monocromia - somente uma cor modificando só a saturação e o brilho, formando o 
+degradê
+
+Tipografia
+O objetivo em um site é bater  olho nos textos e conseguir ler comodamente
+Categorias de fontes:
+- Serifadas = que possuem serifas
+- Sans-serif = não tem serifas
+- Mono-espaçadas = todas os grifos ocupam o mesmo espaço lateral
+- Handwriting = simula a caligrafia
+- Display = não obedece regras anatômicas
+- No máximo 3 fontes no site

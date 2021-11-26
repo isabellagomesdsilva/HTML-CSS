@@ -1,0 +1,148 @@
+Estilos Inline (SEM SEPARAÇÃO DE HTML E CSS - DIFICULTA A MANUTENÇÂO DO SITE):
+- para mudar o fundo -> dentro da tag body adiciona 
+style="background-color: cor desejada;"
+- para mudar a cor do título -> dentro da tag h1 adiciona 
+style="color: cor desejada" (ESSA MUDANÇA É PONTUAL, SOMENTE NO TÍTULO QUE
+FOI ALTERADO A COR E NÃO EM TODOS)
+- para mudar a fonte -> dentro da tag body adiciona
+style="font-family: fonte desejada;"
+- para alinhar a fonte -> dentro da tag p adiciona 
+style="text-align: justify 
+- para mudar o tamanho da fonte -> dentro da tag body adiciona
+font-size: 20px ou dentro das tags de p e h1/2/3/4
+
+Estilos locais ou internos (TÉCNICA MAIS VANTOJOSA QUE A ANTERIOR - VISUALMENTE
+SEPARADO, NO ENTANTO O ESTILO OCUPA MAIS LINHAS QUE O CONTEÚDO E SE HOUVER MAIS
+DE UMA PÁGINA É NECESSÁRIO COPIAR E COLAR O CÓDIGO EM TODOS HTML):
+- Abre uma tag style dentro de head e coloca um seletor para as tags que serão
+alteradas -> 	<head>
+			<style>
+				body{
+				background-color: cor escolhida;
+            			font-family: fonte;
+           			font-size: tamanho;
+				}
+				h1{
+				color: cor escolhida;
+				}
+				h2{
+				color: cor escolhida
+				}
+				p{
+				text-align: alinhamento do texto
+				}
+			<style>
+		<head>
+
+Estilos externos:
+- No head cria uma tag <link css> vai criar um arquivo css separado em que todas
+as páginas de um só projeto vão ter o mesmo estilo
+
+OBS: pode misturar os três tipos, o mais poderoso é o inline, em segundo lugar
+o local e por fim o externo
+
+- Para criar degradê -> background-image linear-gradient(to right/angulo
+desejado deg/to left/to top, cor desejada, 2 cor desejada)
+
+- *{} = configuração global das CSS
+- font-size: tamanho em EM (minúsculo) -> define o tamanho da fonte
+- font-weight: lightes/normal/bold/bolder/100 a 900 -> define o peso da fonte, se é 
+mais magrinha ou mais gordinha
+- font-style: italic/normal -> estilo da fonte
+- text-decoration: underline -> fica sublinhado
+- forma simplificada de arrumar as fontes:
+	font: style weight size family --> font: italic bold 2em 
+						'Arial', sans-serif
+- para usar fonte externa do google fonts é só importar o código das CSS 
+e colar no style do CSS
+- para usar uma fonte que não tem no google fonts é só baixar copiar o arquivo
+para a pasta do site que está sendo feito e usar @font-face que vai abrir um 
+lugar para puxar o caminho da font baixada
+- opentype (otf)
+- truetype (ttf)
+- embeddes-opentype
+- truetype-aat (Apple Advanced Typography)
+- para alinhamento de texto -> text-align: center/left/right
+- para o texto ficar com as linhas alinhadas -> text-align: justify
+- para criar recuo de início de parágrafo -> text-ident: em/px
+- para personalizar tags específicas é só dar um id para cada tag no html e nas
+CSS é só colocar o nome da tag#o id dado -> ex: (NO HTML) h1 id="principal"
+(NAS CSS) h1#principal ou só #principal --> TUDO QUE É ID EM HTML É # EM CSS //
+DENTRO DE UM MESMO HTML SÓ PODE TER UM ID COM CADA NOME, NÃO PODE REPETIR ID
+- para alterar vários elementos com a mesma forma em vez de usar id usa class,
+que pode ser repetido quantas vezes necessárias -> ex: (NO HTML) 
+h1 class='basico' (NAS CSS) .basico --> TUDO QUE É CLASS EM HTML É . EM CSS
+Cada class pode ter mais de uma identificação
+OBS: TANTO PARA CLASS QUANTO PARA ID SEMPRE IDENTIFICAR QUANTO A FUNÇÃO E NÃO
+QUANTO A FORMA, O ID GANHA PREFERÊNCIA QUANDO COLOCADO EM DISPUTA COM CLASS
+- para uma div mudar de cor quando passa o mouse por cima basta usar 
+pseudo-classes, no caso para mudar a cor se usa div:hover
+- pseudo-classes são adicionadas após dois pontos (:)
+- :visited{} = para mudar a cor de um link visitado
+- text-decoration: none = tira o sublinhado do link
+- :active{} = a cor do link quando ativo, ou seja, quando é clicado
+- pseudo-elementos são adicionados após digitar duas vezes dois pontos (::)
+- ::after{} = depois de todo o conteúdo da tag é adicionado algo da escolha
+se dentro da tag adicionar content: "" vai colocar uma palavra da escolha
+- ::before{} = antes de todo o conteúdo da tag é adicionado algo da escolha
+se dentro da tag adicionar content: "" vai colocar uma palavra da escolha
+-> = children -> é adicionado quando tem algo dentro de outro e você quer 
+mexer somente nesse filho --> ex: quando tem um p dentro de uma div e quer 
+mudar só no p
+
+Modelo de caixas:
+- height = altura
+- width = largura
+- border = borda
+- border-width: espessura da borda em px
+- border-style: estilo da borda
+- border-color: cor da borda
+- SIMPLIFICAÇÃO DE BORDER -> border: 10px solid rgb(120,148,148)
+- padding = espaço entre a borda e o conteúdo dentro dela
+- padding-top: espaço de cima
+- padding-right: espaço da direita
+- padding-left: espaço da esquerda
+- padding-bottom: espaço embaixo
+- SIMPLIFICAÇÃO DE PADDING (NA ORDEM DO SENTIDO HORÁRIO DO RELÓGIO) -> padding: 
+10px 10px 10px 10px; SE AS 4 MEDIDAS FOREM IGUAIS BASTA INFORMAR UMA VEZ, SENDO:
+padding: 10px; SE COLOCAR DUAS MEDIDAS, SENDO: padding: 10px 20px; VAI 
+CONSIDERAR O 10 PARA CIMA E BAIXO E 20 PARA ESQUERDA E DIREITA
+- margin = espaço da borda para fora
+- margin-top: espaço de cima
+- margin-right: espaço da direita
+- margin-left: espaço da esquerda
+- margin-bottom: espaço embaixo
+- margin: auto = posiciona a caixa no centro
+- SIMPLIFICAÇÃO DE MARGEM (NA ORDEM DO SENTIDO HORÁRIO DO RELÓGIO) -> margin: 
+10px 10px 10px 10px; SE AS 4 MEDIDAS FOREM IGUAIS BASTA INFORMAR UMA VEZ, SENDO:
+margin: 10px; SE QUISER QUE SÓ A MARGEM DA DIREITA E DA ESQUERDA SEJA 
+CENTRALIZADA USA: margin: 10px auto 10px auto
+- outline = traçado em volta da borda mas ainda dentro da margem
+- outline-width: espessura da borda externa a margem em px
+- outline-style: estilo da borda externa a margem
+- outline-color: cor da borda externa a margem
+- SIMPLIFICAÇÃO DE OUTLINE -> outline: 10px solid rgb(120,148,148)
+Tipos de caixa:
+- box-level = sempre se inicia em uma linha nova, ocupa toda a largura do 
+navegador e pula uma linha para continuar o conteúdo depois que ele termina
+(ISOLADO, INDEPENDENTE) -> ex: <div>; <h1>-<h6>; <p>; <main>; <header>; <nav>;
+<article>; <aside>; <footer>; <form>; <video>
+- inline-level = não se inicia em uma linha nova, continua de onde parou o
+elemento anterior, não ocupa uma linha inteira só ocupa o tamanho que ele
+precisa e da continuidade para o conteúdo na mesma linha -> ex: <span>; <a>; 
+<code>; <small>; <strong>; <em>; <sup>-<sub>; <label>; <button>; <input>;
+<select>
+- header = cabeçalho
+- main = conteúdo principal
+- footer = rodapé
+- box-shadow: 1px 1px 1px 1px color = para colocar sombras
+- border-radius: raio da borda em px se colocar só uma medida todas ficam 
+iguais,se colocar os extremos ficam iguais e se colocar 4 tudo fica diferente 
+- para fazer uma bola é só usar border-radius: 50% dentro de uma div com altura e
+largura definidas
+- para criar bordas personalizadas -> border: px solid color;
+border-image-source: url(img) - para selecionar a imagem; 
+border-image-slice: em px, para fatiar a imagem; border-image-repeat: repeat 
+para repetir a imagem e vai no devtools do google para ajeitar da forma desejada
+- SIMPLIFICAÇÃO DE BORDA PERSONALIZADA (NA ORDEM SOURCE SLICE E REPEAT) -> 
+border-image: url('') px repeat

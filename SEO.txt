@@ -1,0 +1,7 @@
+Somente 1 h1 - palavra chave; foco; ênfase
+h2 - onde colocaria uma especificação maior (palavras chave mais no início 
+da frase)
+h1 e h2 tem que conversar - palavras chaves
+h3 - o que a empresa faz (especificação)
+h4;h5;h6 - não são palavras chave
+o atributo alt é importante não deixar vazio
